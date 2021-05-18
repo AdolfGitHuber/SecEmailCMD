@@ -1,7 +1,7 @@
 from SecEmail import Email
 
 def main():
-    print('Добро пожаловать!')
+    print('Добро пожаловать! Будет благодарны если вы зайдете на наш канал: https://t.me/Adolf_Githuber')
     email_address = Email.get_email(1)[0]
     print(f'Ваш временный адрес: {email_address}')
     while True:
